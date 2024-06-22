@@ -548,6 +548,9 @@ header .header__drabdown_btn {
   gap: 20px;
   grid-template-columns: auto;
 }
+.uyushma-blog.nr {
+  margin: 0px 0px 50px;
+}
 .uyushma-itms {
   width: 100%;
 }
@@ -671,6 +674,7 @@ header .header__drabdown_btn {
     margin: 0px 0px 50px;
   }
   .maqsad .uyushma-blog.nr {
+    margin: 0px 0px 60px;
     grid-template-columns: 2fr 3fr;
   }
   .maqsad .uyushma-btn {
@@ -754,5 +758,82 @@ header .header__drabdown_btn {
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 25px;
+  }
+}
+.footer {
+  border-top: 2px solid #CCCCCC;
+}
+.footer-box {
+  padding: 20px 20px;
+  gap: 25px;
+}
+.footer-links {
+  width: 100%;
+}
+.footer-links-box {
+  justify-content: space-between;
+  width: 100%;
+  gap: 20px;
+}
+.footer-box-itms {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.footer-box-itms1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.footer-box-btn {
+  padding: 10px 0px;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  border-bottom: 2px solid #CCCCCC;
+}
+.footer-bottom {
+  margin: 20px;
+  border-top: 2px solid #CCCCCC;
+  padding: 10px 0px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: auto auto;
+}
+.footer-bottom-1 {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  gap: 10px;
+  background-color: #56585E;
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .footer-box {
+    flex-direction: row;
+    display: flex;
+  }
+  .footer-links-box {
+    display: flex;
+  }
+  .footer-box-itms1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .footer-box-btn {
+    width: 100%;
+    gap: 10px;
+  }
+}
+@media (min-width: 992px) {
+  .footer-bottom {
+    grid-template-columns: auto auto auto;
   }
 }

@@ -287,6 +287,9 @@
         gap: 20px;
         grid-template-columns: auto;
     }
+    &-blog.nr{ 
+        margin: 0px 0px 50px;
+    }
     &-itms{
         width: 100%;
     
@@ -419,10 +422,12 @@
               }
             .uyushma{
                 &-blog{
+                
                     grid-template-columns: auto auto auto ;
                     margin: 0px 0px 50px;
                 }
                 &-blog.nr{
+                    margin: 0px 0px 60px;
                     grid-template-columns: 2fr 3fr ;
                 }
 
