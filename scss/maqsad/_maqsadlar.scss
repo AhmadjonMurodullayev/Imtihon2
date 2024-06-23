@@ -1,0 +1,127 @@
+.maqsadlar{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    &-title{
+        color: #828388;
+        
+    }
+    &-btn{
+        padding:10px;
+        border-radius: 20px;
+        background-color: inherit;
+        color: #184AFB;
+        border: 2px solid #CCCC;
+        font-size: 17px;
+        margin: 0px 0px 40px;
+    }
+}
+.bosqichlar{
+    margin: 0px 0px 80px;
+    border-bottom: 2px solid #CCCCCC ;
+
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    &-title{
+        font-size: 32px ;
+        font-weight: 600;
+    }
+    &-blog{
+        display: grid;
+        gap: 25px;
+        grid-template-columns: auto;
+        margin: 0px 0px 49px;
+
+    }
+    &-itms{
+       display: flex;
+       flex-direction: column;
+       gap: 20px;
+       
+    }
+    &-itms-img{
+        width: 100%;
+        padding: 20px 20px;
+        background-color: #F5F5F5;
+        border-radius: 10px;
+        img{
+            width: 100%;
+        }
+    }
+
+    &-dics{
+        font-family: "Michroma", sans-serif;
+    }
+}
+.bozor{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    &-box{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        margin: 0px 0px 60px;
+        border-bottom: 2px solid #CCCC;
+    }&-texts{
+        display: flex;
+        align-items: center;
+        gap: 25px;
+    }
+    &-text{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+    &-title{
+        font-size: 30px;
+        font-weight: 600;
+        font-family: "Michroma", sans-serif;
+
+    }
+    &-disc{
+        color: #3D5A5C;
+        font-weight: 400;
+    }
+}
+.yangilik-texts{
+    flex-direction: row ;
+    display: flex;
+}
+.ax{
+    border-bottom: 2px solid #CCCC;
+}
+@media(min-width:768px){
+    .maqsadlar{
+        flex-direction: row;
+        justify-content: space-between;
+        &-btn{
+            width: 140px;
+            height: 50px;
+            border-radius: 20px;
+        }
+    }
+   .bosqichlar{
+    &-blog{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+   } 
+   .bozor{
+    &-box{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+   }
+}
+@media(min-width:992px){
+    .maqsadlar{
+        &-title{
+            width: 70%;
+            font-size: 19px;
+            color: #828388;
+        }
+    }
+    
+}

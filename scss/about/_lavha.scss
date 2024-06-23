@@ -1,0 +1,57 @@
+.lavha{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    &-title{
+        font-size: 32px ;
+        font-weight: 600;
+    }
+    &-boxs{
+        display: grid;
+        grid-template-columns: auto ;
+        gap: 20px;
+    }
+    &-box-imgss{
+        img{
+            width: 100%;
+        }
+    }
+   
+    &-disc{
+        color: #666666;
+        font-family: "Michroma", sans-serif;
+    }
+  
+
+}
+@media(min-width:768px){
+    .lavha{
+        &-title{
+            display: flex;
+            justify-content: center;
+            font-size: 39px;
+        }
+        &-boxs{
+            grid-template-columns: auto auto auto   ;
+        }
+        &-box-imgss{
+            width: 100%;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            &-disc{
+                display: flex;
+             margin: 0px auto;
+              width: 70%;
+            }
+            &-bottom{
+                margin: 40px 0px;
+                display: flex;
+                gap: 20px;
+                justify-content: center;
+            }
+        }
+    }
+

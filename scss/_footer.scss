@@ -37,7 +37,7 @@
         padding: 10px 0px;
         display: grid;
         gap: 20px;
-        grid-template-columns: auto auto;
+        grid-template-columns: auto;
 
     }
     &-bottom-1{
@@ -72,6 +72,10 @@
             width: 100%;
             gap: 10px;
 
+        }
+        &-bottom{
+            grid-template-columns: auto auto;
+    
         }
     }
 }

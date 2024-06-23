@@ -1,0 +1,163 @@
+.bulim{
+    &-blog{
+        margin: 80px 0px;
+       display: flex; 
+       flex-direction: column;
+       gap: 20px;
+    }
+    &-img{
+        width: 100%;
+        img{
+        width: 100%;}
+    }
+    &-title{
+        font-size: 32px;
+        font-weight: 600;
+    }
+    &-text-dics{
+        color: #184AFB;
+        font-size: 22px;
+        font-weight: 400;
+    }
+    &-text-title{
+        width: 100%;
+        color:  #333333;
+        font-size: 14px;
+        font-family: "Michroma", sans-serif;
+    }
+    &-bottom{
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    &-itms{
+        width: 100%;
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        padding: 10px 10px;
+        border-right: 2px solid #CCCCCC;
+    }
+    // &-text{
+    //     display: flex;
+    //     flex-direction: column;
+    //     gap: 30px;
+    //     padding: 10px 20px;
+    //     border-right: 2px solid #CCCCCC;
+    // }
+    // &-bottom{
+    //     border: 2px solid;
+    //     display: grid;
+    //     grid-template-columns:1fr 1fr auto  ;
+    // }
+    &-cardss{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        border-bottom: 2px solid #CCCCCC ;
+        margin: 0px 0px 60px;
+
+    }
+    &-cards{
+        display: grid;
+        gap: 20px;
+        grid-template-columns: auto;
+    }
+    &-card-img{
+        padding: 20px 20px;
+        border: 2px solid #CCCCCC;
+        border-radius: 10px;
+        img{
+            width: 100%;
+        }
+    }
+    .berilgan-text.nm {
+        display: flex;
+        gap: 10px;
+        // flex-direction: row;
+        align-items: center;
+        margin: 0px 0px 90px;
+    }
+    &-btn{
+        width: 100%;
+        padding: 8px 0px;
+        border-radius: 20px;
+        background-color: inherit;
+        border: 2px solid #CCCCCC;
+        color: #184AFB;
+        cursor: pointer;
+    }
+    &-harakarlar{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        margin: 0px 0px 50px;
+        border-bottom: 2px solid #CCCCCC;
+        .harakarlar-text{
+            margin: 0px 0px 50px;
+        }
+    }
+    &-startap-box{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    &-startap-text{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        border-top: 2px solid #CCCCCC;
+        border-bottom: 2px solid#CCCCCC;
+        padding: 20px 10px;
+    }
+    .startap-btn{
+        width: 90px;
+        height: 40px;
+        border-radius: 15px;
+        border: 2px solid #CCCCCC;
+        color: #184AFB;
+        background-color: inherit;
+        font-size: 18px;
+    }
+    .startap{
+        margin: 0px 0px 70px;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+    
+
+  
+}
+
+@media(min-width:768px){
+    .bulim{
+        &-cards{
+            display: grid;
+            gap: 20px;
+            grid-template-columns: auto auto;
+        }
+        &-btn{
+            width: 140px;
+        }
+        .berilgan-text  {
+            flex-direction: row;
+        }
+        &-startap-box{
+            flex-direction: row;
+        }
+        .startap-p{
+            font-size: 18px;
+        }
+    }
+    .uyushma-blog.mk{
+        display:grid;
+        grid-template-columns: auto auto;
+    }
+}
+@media(min-width:992px){
+    .uyushma-blog.mk{
+        display:grid;
+        grid-template-columns: auto auto auto auto;
+    }
+}
